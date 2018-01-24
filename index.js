@@ -7,6 +7,9 @@ class BoardMember {
   veto(){
     return "No, I must disagree";
   }
+  approve(){
+    return "You can do that!";
+  }
 
   sayHi() {
     return `Hi, my name is ${this.name}. I am from ${this.name}, and I was trained in ${this.name}.`;
