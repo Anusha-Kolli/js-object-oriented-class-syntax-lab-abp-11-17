@@ -21,3 +21,6 @@ class BoardMember {
     return `Hi, my name is ${this.name}. I am from ${this.name}, and I was trained in ${this.name}.`;
   }
 }
+class Ceo extends BoardMember {
+
+}
